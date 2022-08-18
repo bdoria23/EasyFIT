@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:rgba(0, 0, 0, 0.884);
+    height: 60px;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    color: white;
+}
+.logo{
+    float: left;
+    font-size: 20px;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.logo span{
+    color: yellow;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.barra{
+    float: right;
+}
+.barra li{
+    list-style: none;
+    display: inline-block;
+    font-size:smaller;
+}
+.barra a{
+    text-decoration: none;
+    color: yellow;
+}
+.barra a:hover{
+    color: orange;
+}
+.eslogan{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagenes/portada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.call{
+    float:unset;
+    background-color: rgba(65, 62, 62, 0.76);
+    border: 2px solid orangered;
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+}
+h1{
+    color: rgb(247, 247, 11);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.copy{
+    color: orange;
+}
+.footer{
+    background-color:rgba(0, 0, 0, 0.884);
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+/*Alimentacion*/
+.ali{
+    background-image: url(imagenes/alimentacion.jpg);
+    height: 220vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.titulos2{
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.808);
+}
+.parrafo0{
+    padding: 2;
+    margin: 5px;
+    text-align: left;
+    color: yellow;
+}
+.parrafos{
+    background-color: rgba(255, 166, 0, 0.589);
+}
+.img{
+    text-align: center;
+}
+h3{
+    float:unset;
+    background-color: rgba(65, 62, 62, 0.76);
+    border: 2px solid orangered;
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.concl{
+    background-color: orange;
+}
+.footerali{
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.884);
+    font-size: 30px;
+    padding: 20px;
+}
+/*Nosotros*/
+.nos{
+    background-image: url(imagenes/nosotros.jpg);
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parrafos2{
+    background-color: rgba(255, 166, 0, 0.801);
+    margin: 20px;
+    padding: 10px;
+}
+.presentacion{
+    text-align: center;
+}
+.footernos{
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.884);
+    font-size: 30px;
+    padding: 20px; 
+}
+/*Contacto*/
+.contc{
+    background-image: url(imagenes/contacto.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
+}
+.form{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 0, 0.952);
+    font-size: 1.2cm;
+    font-style:inherit;
+    background-color: rgba(0, 0, 0, 0.492);
+}
+.footercontc{
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.884);
+    font-size: 30px;
+    padding: 20px; 
+}
+/*Rutinas*/
+.rut{
+    background-image: url(imagenes/fitness-1882721_1920.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
+}
+.parrafos3{
+    background-color: rgba(10, 10, 10, 0.721);
+    color: yellow;
+    font-size: 20px;
+}
+.rutt{
+    background-color:  rgba(10, 10, 10, 0.721);
+}
+div ul li{
+    text-align: center;
+    font-size: 25px;
+    color: yellow;
+}
+table{
+    background-color: rgba(255, 255, 0, 0.552);
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+.footerrut{
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.884);
+    font-size: 30px;
+    padding: 20px;
+}
